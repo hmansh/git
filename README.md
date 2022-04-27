@@ -46,6 +46,24 @@ $ ls
 COMMIT_EDITMSG  config       hooks/  info/  objects/
 HEAD            description  index   logs/  refs/
 
+## Commit Message
+1. should be less than 50 characters. Commits are in present tens. 
+#### GOOD/ BAD Examples
+1. BAD - "Fix Typo"
+2. GOOD - "Added Missing Hypen in index.html"
+3. BAD - "Updated Login"
+4. GOOD - "Changed User Authentication to use Blowfish"
+
+## View Commits
+
+###### $git log
+###### $git log -n 5 (recent 5)
+###### $git log --since=2020-01-01
+###### $git log --until=2020-01-01
+###### $git log --grep="Init" (Any commit which has Init at start.)
+
+
+
 
 
 
